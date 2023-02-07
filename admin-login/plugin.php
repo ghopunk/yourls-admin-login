@@ -28,7 +28,7 @@ function ghopunk_pre_html_head( $context, $title ) {
 <?php yourls_html_favicon(); ?>
 <title>Login - <?php echo $_SERVER['HTTP_HOST'];?></title>
 <meta name="ROBOTS" content="NOINDEX, NOFOLLOW, NOODP, NOYDIR">
-<script src="<?php yourls_site_url(); ?>/js/jquery-3.5.1.min.js?v=<?php echo YOURLS_VERSION; ?>" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <style type="text/css">
 	* {margin: 0;padding: 0;}
 	#notify {margin: 45px auto;width: 365px;}
